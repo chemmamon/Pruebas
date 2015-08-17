@@ -14,8 +14,13 @@ namespace HolaGit
             Console.WriteLine("Hola Git!!");
             Console.WriteLine("Como te llamas?");
             nombre = Console.ReadLine();
-            Console.WriteLine(string.Format("Tu Nombre es: {0} ", nombre));
+            Console.WriteLine(string.Format("Tu Nombre es: {0}\n Y tu edad es: {1}", nombre, edad()));
             Console.ReadKey();
+        }
+
+        public static int edad()
+        {
+            return 31;
         }
     }
 }
