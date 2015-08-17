@@ -10,8 +10,11 @@ namespace HolaGit
     {
         static void Main(string[] args)
         {
+            string nombre = null;
             Console.WriteLine("Hola Git!!");
-            Console.WriteLine("Como te llamas?")
+            Console.WriteLine("Como te llamas?");
+            nombre = Console.ReadLine();
+            Console.WriteLine(string.Format("Tu Nombre es: {0} ", nombre));
             Console.ReadKey();
         }
     }
