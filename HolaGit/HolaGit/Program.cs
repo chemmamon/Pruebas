@@ -11,6 +11,7 @@ namespace HolaGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hola Git!!");
+            Console.WriteLine("Como te llamas?")
             Console.ReadKey();
         }
     }
